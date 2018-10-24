@@ -8,9 +8,13 @@ Running the Example Notebook
 
    To run the exercises on you're own computer you'll need to have Docker Installed. More information about getting started with docker can be found here:  https://docs.docker.com/get-started/#prepare-your-docker-environment
 
-2. Run Jupyter notebook
+2. Download and unzip the repository: https://github.com/RTIInternational/BigSurv18-Spark-for-Social-Science/archive/master.zip
 
-   Run 
+3. Run Jupyter notebook
+
+   In a terminal or command prompt change directory to the work directory.
+
+   From the work diretory of the repo run: 
 
    ```docker run --rm -p 8888:8888 -v "$PWD":/home/jovyan/work ianthomas/bigsurv-s4ss```
 
@@ -24,7 +28,7 @@ Running the Example Notebook
 
 3. Connect to the notebook 
 
-    In a web browser go to http:// http://localhos:8888/?token=<copied token> 
+    In a web browser go to http:// http://localhos:8888/?token=\<copied token\> 
 
 
 
