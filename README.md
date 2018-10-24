@@ -12,9 +12,9 @@ Running the Example Notebook
 
 3. Run Jupyter notebook
 
-   In a terminal or command prompt change directory to the work directory.
+   In a terminal or command prompt change directory to the `work` directory.
 
-   From the work diretory of the repo run: 
+   From the `work` diretory of the repo run: 
 
    ```docker run --rm -p 8888:8888 -v "$PWD":/home/jovyan/work ianthomas/bigsurv-s4ss```
 
@@ -28,7 +28,7 @@ Running the Example Notebook
 
 3. Connect to the notebook 
 
-    In a web browser go to http:// http://localhos:8888/?token=\<copied token\> 
+    In a web browser go to http://localhost:8888/?token= \<copied token\> 
 
 
 

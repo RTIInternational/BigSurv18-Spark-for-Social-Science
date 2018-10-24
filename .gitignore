@@ -1,0 +1,8 @@
+.DS_STORE
+.ipynb_checkpoints
+
+# ignore files from https://files.pushshift.io/reddit/comments/
+RC_*
+
+
+*.pptx
